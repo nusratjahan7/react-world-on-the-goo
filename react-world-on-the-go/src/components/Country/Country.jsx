@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import './Country.css';
 
-const Country = ({country}) => {
+const Country = ({country, handleVisitedCountries}) => {
     const [visited, setVisited] = useState(false);
-
     const handleVisited = () => {
         // console.log("button clicked");
 
@@ -19,13 +18,14 @@ const Country = ({country}) => {
         // setVisited(visited ? false : true);
 
         //  3rd system
-        setVisited(!visited)
+        setVisited(!visited);
+        handleVisitedCountries(country);
     }
 
     return (
         // <div className={`country ${visited ? 'country-visited' : 'country-not-visited'}` }>
          <div className={`country ${visited && 'country-visited'}` }> 
-            <img src={country.flags.flags.png} alt={country.flags.flags.alt} />
+            <img className='image' src={country.flags.flags.png} alt={country.flags.flags.alt} />
             <h3>Name: {country.name.common}</h3>
             <p>Population: {country.population.population}</p>
             <p>Area: {country.area.area} {
