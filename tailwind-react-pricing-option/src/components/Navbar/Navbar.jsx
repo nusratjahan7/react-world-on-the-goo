@@ -43,7 +43,7 @@ const Navbar = () => {
                     <Menu className='md:hidden'></Menu>
              }    
               <ul className={`md:hidden absolute duration-1000
-                ${open ? 'top-8' : '-top-40'}`}>
+                ${open ? 'top-11' : '-top-40'}`}>
                 {links}
               </ul>
             <h3 className='ml-4'>My navbar</h3>

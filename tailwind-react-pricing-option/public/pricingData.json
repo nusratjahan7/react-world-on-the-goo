@@ -4,6 +4,7 @@
         "name": "Basic Plan",
         "price": 20,
         "duration": "month",
+        "description": "Perfect for beginners who want essential gym access at an affordable price.",
         "features": [
           "Access to gym equipment",
           "Locker room access",
@@ -19,6 +20,7 @@
         "name": "Standard Plan",
         "price": 35,
         "duration": "month",
+        "description": "Ideal for regular members who want more flexibility, classes, and some personal training support.",
         "features": [
           "Full gym access",
           "Locker room & shower",
@@ -35,6 +37,7 @@
         "name": "Premium Plan",
         "price": 50,
         "duration": "month",
+        "description": "Best for fitness enthusiasts who want full access, personal coaching, and luxury amenities.",
         "features": [
           "24/7 gym access",
           "All group classes included",
