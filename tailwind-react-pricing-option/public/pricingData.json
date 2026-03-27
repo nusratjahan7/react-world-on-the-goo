@@ -18,6 +18,7 @@
       {
         "id": 2,
         "name": "Standard Plan",
+        "popular": true,
         "price": 35,
         "duration": "month",
         "description": "Ideal for regular members who want more flexibility, classes, and some personal training support.",
